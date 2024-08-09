@@ -1,0 +1,31 @@
+.date-time-icon {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.date-time-icon .icon {
+    margin-right: 10px; /* Space between icons and text */
+    font-size: 20px;
+    color: rgb(157, 179, 183);
+       /* Size of the icon */
+    /* Icon color is set inline using ngStyle */
+}
+
+.date-time-icon .value {
+    font-size: 16px;   /* Default font size for text */
+    color: inherit;    /* Inherit color for text */
+    margin-right: 30px; /* Space between date and time elements */
+}
+
+.date-time-icon .icon:last-of-type {
+    margin-right: 10px; /* No margin after the last icon */
+}
+
+.date-time-icon .value:last-of-type {
+    margin-right: 20px; /* No margin after the last value */
+}

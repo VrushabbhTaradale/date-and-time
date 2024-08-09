@@ -1,0 +1,13 @@
+<div class="date-time-icon">
+    <!-- Display date and time together if present -->
+    <ng-container *ngIf="hasDate || hasTime">
+        <ng-container *ngIf="hasDate">
+            <i class="fas fa-calendar-day icon"></i>
+            <span class="value">{{ displayDate }}</span>
+        </ng-container>
+        <ng-container *ngIf="hasTime">
+            <i class="fas fa-clock icon"></i>
+            <span class="value">{{ displayTime }}</span>
+        </ng-container>
+    </ng-container>
+</div>
